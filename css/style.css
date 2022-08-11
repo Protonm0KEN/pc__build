@@ -479,7 +479,9 @@ h6 {
     text-align: center;
     color: #FFFFFF;
 }
-
+.hamburger-menu{
+    display: none;
+}
 .practicework p:nth-child(2) {
     max-width: 416px;
     margin-top: 60px;

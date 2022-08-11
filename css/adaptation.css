@@ -1,8 +1,215 @@
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 769px){
+    .header__nav-btn {
+        display: none;
+    }
+    #btnweek{
+        width: 154px;
+    }
+    .inputter {
+        background: #FFFFFF;
+        opacity: 0.25;
+        border-radius: 50px 36px 33px 55px;
+        height: 44px;
+        padding-left: 13px;
+        width: 456px;
+    }
+    .container {
+        max-width: 768px;
+        width: 100%;
+    }
     .header__nav-list {
         display: none;
     }
+    .hamburger-menu{
+        display: block;
+    }
+    .menu__btn {
+        position: relative;
+        top: -7px;
+        left: 52px
+    }
+    .whatwearedoing {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .fast__start-line{
+        flex-direction: column;
+        align-items: inherit;
+    }
+    .top__block{
+        justify-content: center;
+    }
+    .fast__start__top-description{
+        text-align: center;
+    }
+    .fast__start__top-description{
+        max-width: 768px;
+        width: 100%;
+    }
+    .fast__start-100 p:nth-child(3){
+        max-width: 768px;
+    }
+    .proffesiongetting h4:nth-child(1){
+        text-align: center;
+    }
+    .top__block{
+        flex-direction: column;
+    }
+    .fast__start-total, .fast__start-50, .fast__start-100, .fast__start-75 p:nth-child(1){
+        text-align: center;
+    }
+    .fast__start-75 p:nth-child(3){
+        max-width: 768px;
+    }
+    .fast__start-50 p:nth-child(3){
+        max-width: 768px;
+    }
+    .fast__start-total p:nth-child(3){
+        max-width: 768px;
+    }
+    #learning-1 {
+        position: absolute;
+        top: 5506px;
+        left: 35px;
+    }
+    #learning-2 {
+        position: absolute;
+        top: 5594px;
+        left: 320px;
+    }
+    #learning-3 {
+        position: absolute;
+        top: 5687px;
+        left: 35px;
+    }
+    #learning-4 {
+        position: absolute;
+        top: 5784px;
+        left: 320px;
+    }
+    #learning-5 {
+        position: absolute;
+        top: 5878px;
+        left: 35px;
+    }
+    #learning-6 {
+        position: absolute;
+        top: 5975px;
+        left: 320px;
+    }
+    #learning-7 {
+        position: absolute;
+        top: 6068px;
+        left: 35px;
+    }
+    .msi {
+        width: 162px;
+        height: 93px;
+    }
+    .line__stat-content {
+        flex-direction: column;
+    }
+    .line__top {
+        margin-top: 15px;
+        display: flex;
+    }
+    .line__stat-content {
+        flex-direction: column;
 
+        align-items: center;
+    }
+
+    .money__line-top {
+        justify-content: center;
+        margin-top: 20px;
+    }
+.header__content h1:nth-child(1){
+    text-align: center;
+}
+.header{
+    background-position-x: -810px;
+}
+.timer__items{
+    justify-content: center;
+}
+    .money__line-bottom {
+        position: relative;
+        width: 100%;
+        max-width: 717px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 15px;
+    }
+}
+@media screen and (max-width: 609px){
+    .money__line-medium img:nth-child(1){
+        width: 100%;
+    }
+    #learning-1 {
+        position: absolute;
+        top: 5767px;
+        left: -43px;
+    }
+    #learning-2 {
+        position: absolute;
+        top: 5856px;
+        left: 238px;
+    }
+    #learning-3 {
+        position: absolute;
+        top: 5948px;
+        left: -43px;
+    }
+    #learning-4 {
+        position: absolute;
+        top: 6044px;
+        left: 238px;
+    }
+    #learning-5 {
+        position: absolute;
+        top: 6139px;
+        left: -43px;
+    }
+    #learning-6 {
+        position: absolute;
+        top: 6236px;
+        left: 238px;
+    }
+    #learning-7 {
+        position: absolute;
+        top: 6330px;
+        left: -43px;
+    }
+    .top__block h5:nth-child(2){
+        text-align: center;
+    }
+    .msi {
+        width: 129px;
+        height: 93px;
+    }
+    .yourteacher__bottom{
+        flex-direction: column;
+        row-gap: 25px;
+    }
+}
+@media only screen and (max-width: 426px) {
+    .header__nav-list {
+        display: none;
+    }
+    .timer__block{
+        opacity: 0.8;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+    .container {
+        max-width: 425px;
+        width: 100%;
+    }
+    .inputter{
+        width: 337px;
+    }
     .header__nav-btn {
         display: none;
     }
@@ -11,6 +218,10 @@
         position: relative;
         top: -7px;
         left: 52px
+    }
+
+    .money__line-medium img:nth-child(1) {
+        width: 100%;
     }
 
     .header__content h1:nth-child(1) {
@@ -105,7 +316,17 @@
         padding-left: 25px;
         padding-right: 25px;
         padding-top: 15px;
-        left: 148px;
+    }
+
+    .yourteachers__top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .yourteachers__top p:nth-child(2) {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 30px;
     }
 
     .whatwearedoing img:nth-child(1) {
@@ -151,49 +372,279 @@
 
     #learning-1 {
         position: absolute;
-        top: 6953px;
+        top: 6962px;
         left: -133px;
     }
 
     #learning-2 {
         position: absolute;
-        top: 7041px;
+        top: 7052px;
         left: 93px;
     }
 
     #learning-3 {
         position: absolute;
-        top: 7134px;
+        top: 7144px;
         left: -136px;
     }
 
     #learning-4 {
         position: absolute;
-        top: 7230px;
+        top: 7241px;
         left: 89px;
     }
 
     #learning-5 {
         position: absolute;
-        top: 7324px;
+        top: 7334px;
         left: -137px;
     }
 
     #learning-6 {
         position: absolute;
-        top: 7420px;
+        top: 7429px;
         left: 89px;
     }
 
     #learning-7 {
         position: absolute;
-        top: 7514px;
-        left: -140px;
+        top: 7524px;
+        left: -136px;
     }
+
     .block__time__learning p:nth-child(2) {
         font-size: 12px;
     }
-    .msi{
+
+    .msi {
         width: 152px;
+    }
+}
+@media only screen and (max-width: 412px) {
+    #learning-1 {
+        position: absolute;
+        top: 7021px;
+        left: -132px;
+    }
+    .timer__block{
+        opacity: 0.8;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+    .whatwearedoing-description {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .whatwearedoing:first-child {
+        padding: 20px;
+    }
+
+    .money__line-medium img {
+        width: 100%;
+        transform: scale(1);
+    }
+
+    .money__line-bottom {
+        left: 0px;
+    }
+
+    .max-width {
+        max-width: 412px;
+        width: 100%;
+    }
+
+    .yourteachers__top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .yourteachers__top p:nth-child(2) {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .money__line-bottom {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 7px;
+        padding-right: 3px;
+        padding-top: -3px;
+    }
+
+    .header {
+        background-size: cover;
+        width: 100%;
+        background-position-x: -1053px;
+    }
+
+    #learning-2 {
+        position: absolute;
+        top: 7108px;
+        left: 71px;
+    }
+
+    #learning-3 {
+        position: absolute;
+        top: 7202px;
+        left: -132px;
+    }
+
+    #learning-4 {
+        position: absolute;
+        top: 7298px;
+        left: 71px;
+    }
+
+    #learning-5 {
+        position: absolute;
+        top: 7392px;
+        left: -132px;
+    }
+
+    #learning-6 {
+        position: absolute;
+        top: 7488px;
+        left: 71px;
+    }
+
+    #learning-7 {
+        position: absolute;
+        top: 7582px;
+        left: -132px;
+    }
+}
+@media only screen and (max-width: 384px) {
+    #learning-1 {
+        position: absolute;
+        top: 7016px;
+        left: -140px;
+    }
+    .timer__block{
+        opacity: 0.8;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+    #btnweek {
+        position: relative;
+        top: -45px;
+        left: 113px;
+        padding: 12px 30px;
+        font-weight: 700;
+        font-size: 16px;
+        width: 158px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    #learning-2 {
+        position: absolute;
+        top: 7103px;
+        left: 54px;
+    }
+
+    #learning-3 {
+        position: absolute;
+        top: 7198px;
+        left: -140px;
+    }
+
+    #learning-4 {
+        position: absolute;
+        top: 7292px;
+        left: 54px;
+    }
+
+    #learning-5 {
+        position: absolute;
+        top: 7388px;
+        left: -140px;
+    }
+
+    #learning-6 {
+        position: absolute;
+        top: 7482px;
+        left: 54px;
+    }
+
+    #learning-7 {
+        position: absolute;
+        top: 7577px;
+        left: -140px;
+    }
+    .inputter{
+        width: 347px;
+    }
+    #btnweek {
+        position: relative;
+        top: -44px;
+        left: 108px;
+        padding: 10px 30px;
+        font-weight: 700;
+        font-size: 16px;
+        width: 158px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+@media only screen and (max-width: 340px){
+    .top__block{
+        text-align: center;
+        row-gap: 20px;
+    }
+    .top__block{
+        font-size: 30px;
+        text-align: center;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+    #learning-1{
+        top: 7198px;
+        left: -141px;
+    }
+    #learning-2{
+        top: 7284px;
+        left: 24px;
+    }
+    #learning-3{
+        top: 7380px;
+        left: -140px;
+    }
+    #learning-4{
+        top: 7570px;
+        left: 24px;
+    }
+    #learning-4{
+        top: 7476px;
+        left: 32px;
+    }
+    #learning-5{
+        top: 7570px;
+        left: -141px;
+    }
+    #learning-6{
+        top: 7665px;
+        left: 32px;
+    }
+    #learning-7{
+        top: 7761px;
+        left: -141px;
+    }
+    #btnweek{
+        width: 138px;
+        padding: 10px 30px;
+        top: -44px;
+        left: 101px;
+    }
+    .inputter{
+        border-radius: 75px 70px 60px 65px;
+        width: 319px;
     }
 }

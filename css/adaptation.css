@@ -1,0 +1,199 @@
+@media only screen and (max-width: 425px) {
+    .header__nav-list {
+        display: none;
+    }
+
+    .header__nav-btn {
+        display: none;
+    }
+
+    .menu__btn {
+        position: relative;
+        top: -7px;
+        left: 52px
+    }
+
+    .header__content h1:nth-child(1) {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .header__nav {
+        padding: 37px 80px 0px 29px;
+    }
+
+    .timer__items {
+        flex-direction: column;
+    }
+
+    .top__block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fast__start__top-description {
+        text-align: center;
+    }
+
+    .header__container {
+        margin-top: 77px;
+    }
+
+    .line__stat-content {
+        flex-direction: column;
+    }
+
+    .line__top {
+        margin-top: 15px;
+        display: flex;
+    }
+
+    .money__line-medium {
+        margin-top: 30px;
+    }
+
+    .fast__start-line {
+        flex-direction: column;
+    }
+
+    .proffesiongetting h4:nth-child(1) {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .proffspec {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .partners__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .yourteacher__bottom {
+        flex-direction: column;
+        row-gap: 22px;
+    }
+
+    .top__block h5:nth-child(2) {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .partners__list-1,
+    .partners__list-2 {
+        flex-direction: column;
+    }
+
+    .line__stat-content {
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .money__line-top {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .money__line-bottom {
+        position: relative;
+        width: 100%;
+        max-width: 425px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        left: 148px;
+    }
+
+    .whatwearedoing img:nth-child(1) {
+        width: 100%;
+    }
+
+    .whatwearedoing {
+        flex-direction: column;
+    }
+
+    .menu__btn {
+
+        position: relative;
+    }
+
+    .icons {
+        display: flex;
+        position: relative;
+        left: -7px;
+        column-gap: 30px;
+        justify-content: center;
+        margin-top: 3px;
+        margin-bottom: 106px;
+    }
+
+    .everyweak p:nth-child(1) {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #btnweek {
+        position: relative;
+        top: -44px;
+        left: 123px;
+        padding: 10px 30px;
+        font-weight: 700;
+        font-size: 16px;
+        width: 153px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    #learning-1 {
+        position: absolute;
+        top: 6953px;
+        left: -133px;
+    }
+
+    #learning-2 {
+        position: absolute;
+        top: 7041px;
+        left: 93px;
+    }
+
+    #learning-3 {
+        position: absolute;
+        top: 7134px;
+        left: -136px;
+    }
+
+    #learning-4 {
+        position: absolute;
+        top: 7230px;
+        left: 89px;
+    }
+
+    #learning-5 {
+        position: absolute;
+        top: 7324px;
+        left: -137px;
+    }
+
+    #learning-6 {
+        position: absolute;
+        top: 7420px;
+        left: 89px;
+    }
+
+    #learning-7 {
+        position: absolute;
+        top: 7514px;
+        left: -140px;
+    }
+    .block__time__learning p:nth-child(2) {
+        font-size: 12px;
+    }
+    .msi{
+        width: 152px;
+    }
+}
